@@ -23,4 +23,6 @@ Rails.application.routes.draw do
   resources :foods, only: %i[index new create destroy]
 
   resources :shopping_lists, only: [:index]
+
+  root "render#index"
 end
