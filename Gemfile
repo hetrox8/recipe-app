@@ -34,7 +34,7 @@ end
 
 group :development do
   gem 'bullet'
-  gem 'pg', '1.4'
+  gem 'pg', '~>==1.4'
   gem 'web-console'
   # gem "rack-mini-profiler"
   # gem "spring"
