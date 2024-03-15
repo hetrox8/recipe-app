@@ -9,7 +9,7 @@ gem 'rails', '~> 7.1.2'
 gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'sprockets-rails'
-gem 'pg', '~> 1.1'
+gem "pg", "~> 1.1"
 gem 'puma', '>= 5.0'
 gem 'importmap-rails'
 gem 'turbo-rails'
@@ -34,7 +34,7 @@ end
 
 group :development do
   gem 'bullet'
-  gem 'sqlite3', '~> 1.4'
+  gem 'pg', '1.4'
   gem 'web-console'
   # gem "rack-mini-profiler"
   # gem "spring"
